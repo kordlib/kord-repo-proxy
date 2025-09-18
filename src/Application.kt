@@ -27,6 +27,10 @@ fun main() {
 
 fun Application.module() {
     routing {
+        get("healthz") {
+            call.respond("All good!")
+        }
+
         route("/{...}") {
             handle {
                 val url = call.url {
