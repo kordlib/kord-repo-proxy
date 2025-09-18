@@ -1,0 +1,4 @@
+[libraries]
+envconf = { group = "dev.schlaubi", name = "stdx-envconf", version = "1.3.0" }
+
+slf4j-simple = { group = "org.slf4j", name = "slf4j-simple", version = "2.0.16" }

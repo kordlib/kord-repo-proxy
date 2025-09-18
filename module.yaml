@@ -1,0 +1,14 @@
+product: jvm/app
+
+settings:
+  ktor:
+    enabled: true
+    version: 3.3.0
+  jvm:
+    mainClass: dev.kord.maven.proxy.ApplicationKt
+
+dependencies:
+  - $ktor.server.netty
+  - $ktor.client.okhttp
+  - $libs.envconf
+  - $libs.slf4j.simple

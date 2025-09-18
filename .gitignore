@@ -1,0 +1,7 @@
+.fleet/
+.gradle/
+.idea/*
+!.idea/icon.png
+.kotlin/
+
+**/build/*
